@@ -307,6 +307,7 @@ a {
 .section.headline {
 	margin-top: 0px;
 	margin-bottom: 0px;
+	padding-bottom: 4px;
 
 	color: var(--primary-text-color);
 	font-weight: bold;
