@@ -133,8 +133,9 @@ a {
 	padding-top: 94px;
 }
 
-.img {
+.section.features .img {
 	width: 270px;
+	height: 120px;
 	background-color: var(--secondary-bg-color);
 }
 
