@@ -27,7 +27,7 @@ a {
 }
 
 .section {
-	margin-bottom: 94px;
+	padding-bottom: 94px;
 }
 
 .list {
@@ -129,6 +129,15 @@ a {
 
 /* Fearutes */
 
+.section.features {
+	padding-top: 94px;
+}
+
+.img {
+	width: 270px;
+	background-color: var(--secondary-bg-color);
+}
+
 .section.list {
 	display: flex;
 }
@@ -214,7 +223,14 @@ a {
 }
 
 .section.team {
+	padding-top: 94px;
+
 	background-color: var(--secondary-bg-color);
+}
+
+.section.list .item {
+	display: block;
+	background-color: var(--primary-bg-color);
 }
 
 .team-name {
@@ -238,6 +254,10 @@ a {
 
 /* Clients */
 
+.section.clients {
+	padding-top: 94px;
+}
+
 .section.list .item.clients {
 	width: calc((100% - 150px) / 6);
 	margin-right: 30px;
@@ -252,7 +272,7 @@ a {
 .list.button {
 	display: flex;
 	justify-content: center;
-	margin-top: 94px;
+	padding-top: 94px;
 }
 
 .button.item {
@@ -281,8 +301,8 @@ a {
 }
 
 .section.list.project {
-	margin-top: 50px;
-	margin-bottom: 94px;
+	padding-top: 50px;
+	padding-bottom: 94px;
 	flex-wrap: wrap;
 }
 
