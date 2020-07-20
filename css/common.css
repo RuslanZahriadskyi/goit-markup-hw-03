@@ -101,7 +101,8 @@ a {
 /* Order a service studio*/
 
 .section.service {
-	padding-bottom: 94px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 
 	text-align: center;
 	background-color: var(--secondary-text-color);
@@ -138,6 +139,7 @@ a {
 .background {
 	width: 270px;
 	height: 120px;
+	background-color: var(--secondary-bg-color);
 }
 
 .section.list .img {
@@ -145,8 +147,6 @@ a {
 	padding-bottom: 25px;
 	padding-right: 101.5px;
 	padding-left: 101.5px;
-
-	background-color: var(--secondary-bg-color);
 }
 
 .section.list {
